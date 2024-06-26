@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+:root{
+    --principal-color: #e0e0e0;
+    --second-color: #F2EFE5;
+    --tercer-color: #F0E4CB;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Source Sans 3", sans-serif;
+}
+
+main{
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--second-color);
+}
+
+.tit__cont{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.bar__container{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#progress-bar{
+    width: 100%;
+    height: 14px;
+    background: rgb(0, 0, 0);
+    border-radius: 20px;
+}
+
+.botones__cont{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn, .btn__download{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: 0;
+    background: var(--tercer-color);
+    margin: 0px 5px;
+}
+
+.btn__download{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img__svg{
+    width: 30px;
+}
+
+.download{
+    width: 23px;
+}
+
+@media(min-width: 720px){
+
+    main{
+        width: 100%;
+        min-height: 100vh;
+        padding: 0 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: var(--principal-color);
+    }
+
+    .audio{
+        width: 30%;
+        border-radius: 30px;
+        padding: 50px;
+        background: var(--second-color);
+        box-shadow: 5px 5px 10px var(--tercer-color);
+    }
+    
+    .tit__cont{
+        width: 100%;
+        height: 90px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .img{
+        width: 100%;
+        border-radius: 20px;
+    }
+    
+    .bar__container{
+        width: 100%;
+        height: 90px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #progress-bar{
+        width: 100%;
+        height: 14px;
+        border: 0;
+        background: rgb(0, 0, 0);
+        border-radius: 20px;
+    }
+    
+    .botones__cont{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .btn, .btn__download{
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        border: 0;
+        background: var(--tercer-color);
+        margin: 0px 5px;
+    }
+    
+    .btn__download{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .img__svg{
+        width: 30px;
+    }
+    
+    .download{
+        width: 23px;
+    }
+}
+
